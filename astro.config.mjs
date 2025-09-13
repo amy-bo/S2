@@ -9,7 +9,7 @@ export default defineConfig({
 			title: 'My Docs',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
-				{ label: 'Docs', autogenerate: true },
+				{ label: 'Docs', autogenerate: { directory: 'docs' } },
 			],
 		}),
 	],
