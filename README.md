@@ -1,2 +1,3 @@
 # S2: Sustainable Survival
-https://s2.amy.bo
+
+<https://s2.amy.bo>
