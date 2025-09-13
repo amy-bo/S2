@@ -1,0 +1,14 @@
+232872	package-lock.json
+98506	src/assets/houston.webp
+1047	src/content/docs/index.mdx
+696	public/favicon.svg
+608	astro.config.mjs
+422	src/content/docs/reference/example.md
+374	src/content/docs/guides/example.md
+367	README.md
+339	package.json
+269	src/content.config.ts
+229	.gitignore
+207	.vscode/launch.json
+109	tsconfig.json
+87	.vscode/extensions.json
