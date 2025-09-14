@@ -1,8 +1,0 @@
-4.0K	./public
-8.0K	./scripts/output
- 12K	./scripts
-8.0K	./.vscode
- 12K	./src/content
-100K	./src/assets
-124K	./src
-216M	.
