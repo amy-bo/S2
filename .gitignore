@@ -12,13 +12,31 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-
 # environment variables
 .env
-.env.production
+.env.*
+!.env.example
+
+# editor settings
+.vscode/*
+!.vscode/settings.json
+
+# host deploy directories
+.vercel/
+.netlify/
 
 # macOS-specific files
 .DS_Store
 
 # repo report output (produced by `./scripts/make-repo-report.sh`)
 scripts/output/repo-report/
+
+# safety
+*~ 
+*.swp
+._* 
+*.tmp
+*.bak
+*.orig
+*.rej
+*-conflict-*
