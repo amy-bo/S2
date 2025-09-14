@@ -27,3 +27,11 @@ find . \
 
 echo "Repo report generated in $outdir:"
 ls -1 "$outdir"
+
+# Safety net: check if any files in $outdir are tracked by git
+if git ls-files --error-unmatch "$outdir"/* > /dev/null 2>&1; then
+  echo "WARNING: Some files in $outdir are tracked by git. Please ensure output files are ignored or untracked." >&2
+  exit 1
+else
+  echo "All output files in $outdir are correctly ignored or untracked."
+fi
