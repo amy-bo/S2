@@ -20,4 +20,5 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
+# repo report output (produced by `./scripts/make-repo-report.sh`)
 scripts/output/repo-report/
